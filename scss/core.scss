@@ -1,0 +1,31 @@
+$header-min:12rem;
+$app-pad:3rem;
+
+html {
+	font-size:1vmin;
+}
+
+body {
+	@include background(#fff inline-image('hp-bg.png'));
+	padding:$header-min $app-pad 0px;
+}
+
+#app-root {
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	position:relative;
+	display:none;
+}
+
+#app-header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#666;
+	width:100%;
+	height:$header-min;
+}
+
+#app-content {
+	background:#fff;
+	padding:$app-pad;
+}
