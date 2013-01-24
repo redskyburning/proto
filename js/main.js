@@ -2,12 +2,13 @@ function prepRem() {
 	var vW = $(window).width();
 	var vH = $(window).height();
 	var vM = (vW < vH) ? vW : vH; 
-	var rem = vM / 100;
+	var rem = Math.ceil(vM / 100);
 	$('html').css('fontSize',rem+'px');
 	// Hide/Show forces reflow
 	$('#app-root').show();
 	$('#app-content').prepend('<p>vm: '+vM+'</p>');
-	$('#app-content').prepend('<p>rem: '+$('html').css('fontSize')+'</p>');
+	$('#app-content').prepend('<p>rem: '+rem+'</p>');
+	$('#app-content').prepend('<p>fs: '+$('html').css('fontSize')+'</p>');
 	$('#app-content').prepend('<p>min: '+$('#app-header').height()+'</p>');
 }
 
