@@ -119,3 +119,22 @@
 2013-01-23 19:06:14     error scss/core.scss (Line 9: Undefined mixin 'background'.)
 2013-01-23 19:06:14 identical css/core.css 
 2013-01-23 19:06:14 overwrite css/root.css 
+2013-01-23 19:15:09     error scss/core.scss (Line 9: Undefined mixin 'background'.)
+2013-01-23 19:15:09 identical css/core.css 
+2013-01-23 19:15:09 overwrite css/root.css 
+2013-01-23 19:15:30     error scss/core.scss (Line 9: Undefined mixin 'background'.)
+2013-01-23 19:15:30 identical css/core.css 
+2013-01-23 19:15:30 overwrite css/root.css 
+2013-01-23 19:16:27     error scss/core.scss (Line 10: Undefined mixin 'background'.)
+2013-01-23 19:16:27 overwrite css/core.css 
+2013-01-23 19:16:27     error scss/root.scss (Line 29 of scss/core.scss: Undefined variable: "$header-min".)
+2013-01-23 19:16:27 overwrite css/root.css 
+2013-01-23 19:18:03     error scss/core.scss (Line 10: Undefined mixin 'background'.)
+2013-01-23 19:18:03 identical css/core.css 
+2013-01-23 19:18:03 overwrite css/root.css 
+2013-01-23 19:18:42     error scss/core.scss (Line 10: Undefined mixin 'background'.)
+2013-01-23 19:18:42 identical css/core.css 
+2013-01-23 19:18:42 identical css/root.css 
+2013-01-23 19:19:20     error scss/core.scss (Line 10: Undefined mixin 'background'.)
+2013-01-23 19:19:20 identical css/core.css 
+2013-01-23 19:19:20 overwrite css/root.css 
