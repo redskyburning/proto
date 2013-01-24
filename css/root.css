@@ -668,6 +668,13 @@ div, p {
   margin-top: 0px;
 }
 
+/* line 130, ../scss/main.scss */
+ul, ol, li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 /* line 5, ../scss/core.scss */
 html {
   font-size: 1vmin;
@@ -691,57 +698,148 @@ body {
   top: 0px;
   left: 0px;
   background: #666;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
+  box-pack: justify;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+/* line 31, ../scss/core.scss */
+#app-header .header-button {
+  display: block;
+}
+/* line 35, ../scss/core.scss */
+#app-header #header-nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -ms-box-pack: end;
+  box-pack: end;
 }
 
-@media only screen and (orientation: portrait) and (max-width: 400px) {
-  /* line 28, ../scss/core.scss */
-  body {
-    padding: 1rem 0.3rem 0px;
+@media only screen and (orientation: portrait) {
+  /* line 42, ../scss/core.scss */
+  #app-header {
+    padding: 0.225rem 0.3rem;
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #4a4a4a), color-stop(100%, #2c2c2c));
+    background-image: -webkit-linear-gradient(bottom, #4a4a4a, #2c2c2c);
+    background-image: -moz-linear-gradient(bottom, #4a4a4a, #2c2c2c);
+    background-image: -o-linear-gradient(bottom, #4a4a4a, #2c2c2c);
+    background-image: linear-gradient(bottom, #4a4a4a, #2c2c2c);
   }
 
-  /* line 32, ../scss/core.scss */
-  #app-header {
-    width: 100%;
-    height: 1rem;
-  }
-}
-@media only screen and (orientation: landscape) and (max-height: 400px) {
-  /* line 40, ../scss/core.scss */
-  body {
-    padding: 0px 0.3rem 0px 1.3rem;
-  }
-
-  /* line 44, ../scss/core.scss */
-  #app-header {
+  /* line 47, ../scss/core.scss */
+  .header-button {
     height: 100%;
-    width: 1rem;
-  }
-}
-@media only screen and (orientation: portrait) and (min-width: 401px) {
-  /* line 52, ../scss/core.scss */
-  body {
-    padding: 1rem 0.3rem 0px;
+    width: auto;
   }
 
-  /* line 56, ../scss/core.scss */
-  #app-header {
-    width: 100%;
-    height: 1rem;
+  /* line 52, ../scss/core.scss */
+  #header-nav {
+    height: 60%;
+  }
+  /* line 55, ../scss/core.scss */
+  #header-nav li {
+    padding-left: 0.225rem;
   }
 }
-@media only screen and (orientation: landscape) and (min-height: 401px) {
-  /* line 64, ../scss/core.scss */
-  body {
-    padding: 0px 0.3rem 0px 1.3rem;
+@media only screen and (orientation: landscape) {
+  /* line 62, ../scss/core.scss */
+  #app-header {
+    padding: 0.3rem 0.225rem;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #4a4a4a), color-stop(100%, #2c2c2c));
+    background-image: -webkit-linear-gradient(right, #4a4a4a, #2c2c2c);
+    background-image: -moz-linear-gradient(right, #4a4a4a, #2c2c2c);
+    background-image: -o-linear-gradient(right, #4a4a4a, #2c2c2c);
+    background-image: linear-gradient(right, #4a4a4a, #2c2c2c);
   }
 
   /* line 68, ../scss/core.scss */
-  #app-header {
-    height: 100%;
-    width: 1rem;
+  .header-button {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 73, ../scss/core.scss */
+  #header-nav {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    width: 60%;
+  }
+  /* line 77, ../scss/core.scss */
+  #header-nav li {
+    padding-top: 0.225rem;
   }
 }
-/* line 74, ../scss/core.scss */
+@media only screen and (orientation: portrait) and (max-width: 400px) {
+  /* line 85, ../scss/core.scss */
+  body {
+    padding: 1.6rem 0.3rem 0px;
+  }
+
+  /* line 89, ../scss/core.scss */
+  #app-header {
+    width: 100%;
+    height: 1.6rem;
+  }
+}
+@media only screen and (orientation: landscape) and (max-height: 400px) {
+  /* line 97, ../scss/core.scss */
+  body {
+    padding: 0px 0.3rem 0px 1.9rem;
+  }
+
+  /* line 101, ../scss/core.scss */
+  #app-header {
+    height: 100%;
+    width: 1.6rem;
+  }
+}
+@media only screen and (orientation: portrait) and (min-width: 401px) {
+  /* line 109, ../scss/core.scss */
+  body {
+    padding: 1.2rem 0.3rem 0px;
+  }
+
+  /* line 113, ../scss/core.scss */
+  #app-header {
+    width: 100%;
+    height: 1.2rem;
+  }
+}
+@media only screen and (orientation: landscape) and (min-height: 401px) {
+  /* line 121, ../scss/core.scss */
+  body {
+    padding: 0px 0.3rem 0px 1.5rem;
+  }
+
+  /* line 125, ../scss/core.scss */
+  #app-header {
+    height: 100%;
+    width: 1.2rem;
+  }
+}
+/* line 131, ../scss/core.scss */
 #app-content {
   background: #fff;
   padding: 0.3rem;

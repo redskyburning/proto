@@ -12,6 +12,12 @@ function prepRem() {
 	$('#app-content').prepend('<p>min: '+$('#app-header').height()+'</p>');
 }
 
+newPage = '<div class="page">This is a new page</div>';
+
+function loadPage(){
+	
+}
+
 $(document).ready(function(){
 	prepRem();
 });

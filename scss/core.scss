@@ -1,5 +1,5 @@
-$header-min-p:1rem;
-$header-min-t:1rem;
+$header-min-p:1.6rem;
+$header-min-t:1.2rem;
 $app-pad:.3rem;
 
 html {
@@ -21,6 +21,63 @@ body {
 	top:0px;
 	left:0px;
 	background:#666;
+	@include box-sizing(border-box);
+	box-shadow:0px 5px 10px rgba(0,0,0,0.25);
+	@include display-box;
+	@include box-pack(justify);
+	@include box-align(center);
+	
+	
+	.header-button {
+		display:block;
+	}
+	
+	#header-nav {
+		@include display-box;
+		@include box-pack(end);
+	}
+}
+
+@media only screen and (orientation: portrait) {
+	#app-header {
+		padding:($app-pad * .75) $app-pad;
+		@include background-image(linear-gradient(bottom, #4a4a4a, #2c2c2c));
+	}
+	
+	.header-button {
+		height:100%;
+		width:auto;
+	}
+	
+	#header-nav {
+		height:60%;
+		
+		li {
+			padding-left:$app-pad * .75;
+		}
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	#app-header {
+		padding:$app-pad ($app-pad * .75);
+		@include box-orient(vertical);
+		@include background-image(linear-gradient(right, #4a4a4a, #2c2c2c));
+	}
+	
+	.header-button {
+		width:100%;
+		height:auto;
+	}
+	
+	#header-nav {
+		@include box-orient(vertical);
+		width:60%;
+		
+		li {
+			padding-top:$app-pad * .75;
+		}
+	}
 }
 
 @media only screen and (orientation: portrait) and (max-width: 400px) {
