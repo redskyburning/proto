@@ -2,7 +2,7 @@ function prepRem() {
 	var vW = $(window).width();
 	var vH = $(window).height();
 	var vM = (vW < vH) ? vW : vH; 
-	var rem = Math.ceil(vM / 100);
+	var rem = Math.round(vM / 10);
 	$('html').css('fontSize',rem+'px');
 	// Hide/Show forces reflow
 	$('#app-root').show();

@@ -696,53 +696,53 @@ body {
 @media only screen and (orientation: portrait) and (max-width: 400px) {
   /* line 28, ../scss/core.scss */
   body {
-    padding: 10rem 3rem 0px;
+    padding: 1rem 0.3rem 0px;
   }
 
   /* line 32, ../scss/core.scss */
   #app-header {
     width: 100%;
-    height: 10rem;
+    height: 1rem;
   }
 }
 @media only screen and (orientation: landscape) and (max-height: 400px) {
   /* line 40, ../scss/core.scss */
   body {
-    padding: 0px 3rem 0px 13rem;
+    padding: 0px 0.3rem 0px 1.3rem;
   }
 
   /* line 44, ../scss/core.scss */
   #app-header {
     height: 100%;
-    width: 10rem;
+    width: 1rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-width: 401px) {
   /* line 52, ../scss/core.scss */
   body {
-    padding: 10rem 3rem 0px;
+    padding: 1rem 0.3rem 0px;
   }
 
   /* line 56, ../scss/core.scss */
   #app-header {
     width: 100%;
-    height: 10rem;
+    height: 1rem;
   }
 }
 @media only screen and (orientation: landscape) and (min-height: 401px) {
   /* line 64, ../scss/core.scss */
   body {
-    padding: 0px 3rem 0px 13rem;
+    padding: 0px 0.3rem 0px 1.3rem;
   }
 
   /* line 68, ../scss/core.scss */
   #app-header {
     height: 100%;
-    width: 10rem;
+    width: 1rem;
   }
 }
 /* line 74, ../scss/core.scss */
 #app-content {
   background: #fff;
-  padding: 3rem;
+  padding: 0.3rem;
 }
