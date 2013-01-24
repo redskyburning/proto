@@ -726,7 +726,7 @@ body {
   /* line 56, ../scss/core.scss */
   #app-header {
     width: 100%;
-    height: 10rem;
+    height: 50rem;
   }
 }
 @media only screen and (orientation: landscape) and (min-height: 401px) {
