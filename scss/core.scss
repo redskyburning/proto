@@ -7,7 +7,6 @@ html {
 
 body {
 	@include background(#fff inline-image('hp-bg.png'));
-	padding:$header-min $app-pad 0px;
 }
 
 #app-root {
@@ -21,8 +20,30 @@ body {
 	top:0px;
 	left:0px;
 	background:#666;
-	width:100%;
-	height:$header-min;
+}
+
+@media only screen and (orientation: portrait) {
+
+	body {
+		padding:$header-min $app-pad 0px;	
+	}
+
+	#app-header {
+		width:100%;
+		height:$header-min;	
+	}
+}
+
+@media only screen and (orientation: landscape) {
+
+	body {
+		padding:0px $app-pad 0px ($header-min + $app-pad);	
+	}
+	
+	#app-header {
+		height:100%;
+		width:$header-min;	
+	}
 }
 
 #app-content {

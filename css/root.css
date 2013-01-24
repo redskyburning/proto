@@ -676,27 +676,48 @@ html {
 /* line 8, ../scss/core.scss */
 body {
   background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUE3QjFDRUYzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUE3QjFDRjAzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTdCMUNFRDM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTdCMUNFRTM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvEK1l8AAAAzSURBVHjaYjxz5gwDEjgOYzBhEzQ2NrZkwiZ49uxZsA4MQRSjoIIiMBOY0FS+gZkAEGAAfsYV0BEy/9AAAAAASUVORK5CYII=');
-  padding: 12rem 3rem 0px;
 }
 
-/* line 13, ../scss/core.scss */
+/* line 12, ../scss/core.scss */
 #app-root {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
   position: relative;
   display: none;
 }
 
-/* line 19, ../scss/core.scss */
+/* line 18, ../scss/core.scss */
 #app-header {
   position: fixed;
   top: 0px;
   left: 0px;
   background: #666;
-  width: 100%;
-  height: 12rem;
 }
 
-/* line 28, ../scss/core.scss */
+@media only screen and (orientation: portrait) {
+  /* line 27, ../scss/core.scss */
+  body {
+    padding: 12rem 3rem 0px;
+  }
+
+  /* line 31, ../scss/core.scss */
+  #app-header {
+    width: 100%;
+    height: 12rem;
+  }
+}
+@media only screen and (orientation: landscape) {
+  /* line 39, ../scss/core.scss */
+  body {
+    padding: 0px 3rem 0px 15rem;
+  }
+
+  /* line 43, ../scss/core.scss */
+  #app-header {
+    height: 100%;
+    width: 12rem;
+  }
+}
+/* line 49, ../scss/core.scss */
 #app-content {
   background: #fff;
   padding: 3rem;
