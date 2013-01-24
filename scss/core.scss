@@ -2,6 +2,18 @@ $header-min-p:1.6rem;
 $header-min-t:1.2rem;
 $app-pad:.3rem;
 
+::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+}
+
 html {
 	font-size:1vmin;
 }
