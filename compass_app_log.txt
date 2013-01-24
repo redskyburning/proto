@@ -147,3 +147,6 @@
 2013-01-23 19:31:20     error scss/core.scss (Line 10: Undefined mixin 'background'.)
 2013-01-23 19:31:20 identical css/core.css 
 2013-01-23 19:31:20 identical css/root.css 
+2013-01-23 19:37:51     error scss/core.scss (Line 10: Undefined mixin 'background'.)
+2013-01-23 19:37:51 identical css/core.css 
+2013-01-23 19:37:51 overwrite css/root.css 
