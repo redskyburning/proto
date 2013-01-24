@@ -7,6 +7,7 @@ function prepRem() {
 	// Hide/Show forces reflow
 	$('#app-root').show();
 	$('#app-content').prepend('<p>vm: '+vM+'</p>');
+	$('#app-content').prepend('<p>rem: '+$('html').css('fontSize')+'</p>');
 	$('#app-content').prepend('<p>min: '+$('#app-header').height()+'</p>');
 }
 
