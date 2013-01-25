@@ -701,7 +701,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 0.3rem;
+  font-size: 0.32rem;
   line-height: 1.4em;
   font-family: 'Trebuchet MS';
   text-align: justify;
@@ -712,7 +712,7 @@ html {
 /* line 41, ../scss/core.scss */
 #app-header {
   position: fixed;
-  top: 0px;
+  top: -2px;
   left: 0px;
   background: #666;
   -webkit-box-sizing: border-box;
@@ -935,8 +935,8 @@ html {
 /* line 221, ../scss/core.scss */
 .unit-over-aspect .unit-title {
   border-left: 0.15rem #3f85a6 solid;
-  font-size: 0.45rem;
-  line-height: 0.6rem;
+  font-size: 0.47rem;
+  line-height: 0.62rem;
   font-family: 'Crete Round';
 }
 /* line 227, ../scss/core.scss */

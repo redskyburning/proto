@@ -1,9 +1,9 @@
 $header-min-p:1.6rem;
 $header-min-t:1.2rem;
 $app-pad:.3rem;
-$title-size:.45rem;
+$title-size:.47rem;
 $title-pad:.15rem;
-$root-size:.3rem;
+$root-size:.32rem;
 $root-lh:1.4em;
 $dnews-blue:#3f85a6;
 
@@ -40,7 +40,7 @@ body {
 
 #app-header {
 	position:fixed;
-	top:0px;
+	top:-2px;
 	left:0px;
 	background:#666;
 	@include box-sizing(border-box);
