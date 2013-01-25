@@ -701,7 +701,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 0.32rem;
+  font-size: 0.35rem;
   line-height: 1.4em;
   font-family: 'Trebuchet MS';
   text-align: justify;
@@ -712,7 +712,7 @@ html {
 /* line 41, ../scss/core.scss */
 #app-header {
   position: fixed;
-  top: -10px;
+  top: 0px;
   left: 0px;
   background: #666;
   -webkit-box-sizing: border-box;
@@ -934,9 +934,9 @@ html {
 }
 /* line 224, ../scss/core.scss */
 .unit-over-aspect .unit-title {
-  border-left: 0.15rem #3f85a6 solid;
-  font-size: 0.47rem;
-  line-height: 0.62rem;
+  border-left: 0.2rem #3f85a6 solid;
+  font-size: 0.55rem;
+  line-height: 0.75rem;
   font-family: 'Crete Round';
 }
 /* line 230, ../scss/core.scss */
@@ -944,7 +944,7 @@ html {
   display: inline-block;
   background: #3f85a6;
   color: #fff;
-  padding-right: 0.15rem;
+  padding-right: 0.2rem;
 }
 /* line 239, ../scss/core.scss */
 .unit-over-aspect .unit-content {
