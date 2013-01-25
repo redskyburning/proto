@@ -675,38 +675,41 @@ ul, ol, li {
   list-style: none;
 }
 
-/* line 5, ../scss/core.scss */
+/* line 11, ../scss/core.scss */
 ::-webkit-scrollbar {
   width: 2px;
 }
 
-/* line 9, ../scss/core.scss */
+/* line 15, ../scss/core.scss */
 ::-webkit-scrollbar-track {
   border-radius: 2px;
 }
 
-/* line 13, ../scss/core.scss */
+/* line 19, ../scss/core.scss */
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
 }
 
-/* line 17, ../scss/core.scss */
+/* line 23, ../scss/core.scss */
 html {
   font-size: 1vmin;
+  background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUE3QjFDRUYzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUE3QjFDRjAzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTdCMUNFRDM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTdCMUNFRTM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvEK1l8AAAAzSURBVHjaYjxz5gwDEjgOYzBhEzQ2NrZkwiZ49uxZsA4MQRSjoIIiMBOY0FS+gZkAEGAAfsYV0BEy/9AAAAAASUVORK5CYII=');
 }
 
-/* line 24, ../scss/core.scss */
+/* line 31, ../scss/core.scss */
 #app-root {
-  background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUE3QjFDRUYzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUE3QjFDRjAzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTdCMUNFRDM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTdCMUNFRTM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvEK1l8AAAAzSURBVHjaYjxz5gwDEjgOYzBhEzQ2NrZkwiZ49uxZsA4MQRSjoIIiMBOY0FS+gZkAEGAAfsYV0BEy/9AAAAAASUVORK5CYII=');
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  font-size: 0.3rem;
+  line-height: 1.4em;
+  font-family: 'Trebuchet MS';
+  text-align: justify;
   position: relative;
   display: none;
 }
 
-/* line 32, ../scss/core.scss */
+/* line 41, ../scss/core.scss */
 #app-header {
   position: fixed;
   top: 0px;
@@ -729,11 +732,12 @@ html {
   box-align: center;
   z-index: 100;
 }
-/* line 44, ../scss/core.scss */
+/* line 53, ../scss/core.scss */
 #app-header .header-button {
   display: block;
+  cursor: pointer;
 }
-/* line 48, ../scss/core.scss */
+/* line 58, ../scss/core.scss */
 #app-header #header-nav {
   display: -webkit-box;
   display: -moz-box;
@@ -745,7 +749,7 @@ html {
   box-pack: end;
 }
 
-/* line 54, ../scss/core.scss */
+/* line 64, ../scss/core.scss */
 .app-drawer {
   position: fixed;
   top: 0px;
@@ -763,13 +767,13 @@ html {
   padding: 0.3rem;
 }
 
-/* line 69, ../scss/core.scss */
+/* line 79, ../scss/core.scss */
 .app-drawer.active {
   display: block;
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 74, ../scss/core.scss */
+  /* line 84, ../scss/core.scss */
   #app-header {
     padding: 0.225rem 0.3rem;
     background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #4a4a4a), color-stop(100%, #2c2c2c));
@@ -779,23 +783,23 @@ html {
     background-image: linear-gradient(bottom, #4a4a4a, #2c2c2c);
   }
 
-  /* line 79, ../scss/core.scss */
+  /* line 89, ../scss/core.scss */
   .header-button {
     height: 100%;
     width: auto;
   }
 
-  /* line 84, ../scss/core.scss */
+  /* line 94, ../scss/core.scss */
   #header-nav {
     height: 60%;
   }
-  /* line 87, ../scss/core.scss */
+  /* line 97, ../scss/core.scss */
   #header-nav li {
-    padding-left: 0.225rem;
+    padding-left: 0.3rem;
   }
 }
 @media only screen and (orientation: landscape) {
-  /* line 94, ../scss/core.scss */
+  /* line 104, ../scss/core.scss */
   #app-header {
     padding: 0.3rem 0.225rem;
     -webkit-box-orient: vertical;
@@ -809,13 +813,13 @@ html {
     background-image: linear-gradient(right, #4a4a4a, #2c2c2c);
   }
 
-  /* line 100, ../scss/core.scss */
+  /* line 110, ../scss/core.scss */
   .header-button {
     width: 100%;
     height: auto;
   }
 
-  /* line 105, ../scss/core.scss */
+  /* line 115, ../scss/core.scss */
   #header-nav {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
@@ -823,83 +827,137 @@ html {
     box-orient: vertical;
     width: 60%;
   }
-  /* line 109, ../scss/core.scss */
+  /* line 119, ../scss/core.scss */
   #header-nav li {
-    padding-top: 0.225rem;
+    padding-top: 0.3rem;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 400px) {
-  /* line 117, ../scss/core.scss */
+  /* line 127, ../scss/core.scss */
   #app-root {
     padding: 1.6rem 0.3rem 0px;
   }
 
-  /* line 121, ../scss/core.scss */
+  /* line 131, ../scss/core.scss */
   .app-drawer {
     padding: 1.9rem 0.3rem 0px;
   }
 
-  /* line 125, ../scss/core.scss */
+  /* line 135, ../scss/core.scss */
   #app-header {
     width: 100%;
     height: 1.6rem;
   }
 }
 @media only screen and (orientation: landscape) and (max-height: 400px) {
-  /* line 133, ../scss/core.scss */
+  /* line 143, ../scss/core.scss */
   #app-root {
     padding: 0px 0.3rem 0px 1.9rem;
   }
 
-  /* line 137, ../scss/core.scss */
+  /* line 147, ../scss/core.scss */
   .app-drawer {
     padding: 0.3rem;
     padding-left: 1.9rem;
   }
 
-  /* line 142, ../scss/core.scss */
+  /* line 152, ../scss/core.scss */
   #app-header {
     height: 100%;
     width: 1.6rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-width: 401px) {
-  /* line 150, ../scss/core.scss */
+  /* line 160, ../scss/core.scss */
   #app-root {
     padding: 1.2rem 0.3rem 0px;
   }
 
-  /* line 154, ../scss/core.scss */
+  /* line 164, ../scss/core.scss */
   .app-drawer {
     padding: 1.5rem 0.3rem 0px;
   }
 
-  /* line 158, ../scss/core.scss */
+  /* line 168, ../scss/core.scss */
   #app-header {
     width: 100%;
     height: 1.2rem;
   }
 }
 @media only screen and (orientation: landscape) and (min-height: 401px) {
-  /* line 166, ../scss/core.scss */
+  /* line 176, ../scss/core.scss */
   #app-root {
     padding: 0px 0.3rem 0px 1.5rem;
   }
 
-  /* line 170, ../scss/core.scss */
+  /* line 180, ../scss/core.scss */
   .app-drawer {
     padding: 0.3rem;
     padding-left: 1.5rem;
   }
 
-  /* line 175, ../scss/core.scss */
+  /* line 185, ../scss/core.scss */
   #app-header {
     height: 100%;
     width: 1.2rem;
   }
 }
-/* line 181, ../scss/core.scss */
+/* line 191, ../scss/core.scss */
 #app-content {
   background: #fff;
   padding: 0.3rem;
+}
+
+/* line 197, ../scss/core.scss */
+.unit-over-aspect .unit-hero {
+  position: relative;
+  overflow: hidden;
+}
+/* line 202, ../scss/core.scss */
+.unit-over-aspect .unit-hero-img, .unit-over-aspect .unit-hero-aspect {
+  width: 100%;
+  height: auto;
+}
+/* line 207, ../scss/core.scss */
+.unit-over-aspect .unit-hero-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 213, ../scss/core.scss */
+.unit-over-aspect .unit-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: inline-block;
+  padding: 0.225rem;
+}
+/* line 221, ../scss/core.scss */
+.unit-over-aspect .unit-title {
+  border-left: 0.15rem #3f85a6 solid;
+  font-size: 0.45rem;
+  line-height: 0.6rem;
+  font-family: 'Crete Round';
+}
+/* line 227, ../scss/core.scss */
+.unit-over-aspect .unit-title span {
+  display: inline-block;
+  background: #3f85a6;
+  color: #fff;
+  padding-right: 0.15rem;
+}
+/* line 236, ../scss/core.scss */
+.unit-over-aspect .unit-content {
+  padding: 0.3rem 0;
+}
+
+/* line 242, ../scss/core.scss */
+.stream .unit {
+  margin-bottom: 0.45rem;
+  background: url("../img/stream-dots.png") left bottom repeat-x;
+}
+/* line 247, ../scss/core.scss */
+.stream .unit:last-child {
+  margin-bottom: 0px;
+  background: none;
 }

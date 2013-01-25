@@ -1,6 +1,12 @@
 $header-min-p:1.6rem;
 $header-min-t:1.2rem;
 $app-pad:.3rem;
+$title-size:.45rem;
+$title-pad:.15rem;
+$root-size:.3rem;
+$root-lh:1.4em;
+$dnews-blue:#3f85a6;
+
 
 ::-webkit-scrollbar {
     width: 2px;
@@ -16,15 +22,18 @@ $app-pad:.3rem;
 
 html {
 	font-size:1vmin;
+	@include background(#fff inline-image('hp-bg.png'));
 }
 
 body {
 }
 
 #app-root {
-	@include background(#fff inline-image('hp-bg.png'));
 	@include box-sizing(border-box);
-	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	font-size:$root-size;
+	line-height:$root-lh;
+	font-family:'Trebuchet MS';
+	text-align:justify;
 	position:relative;
 	display:none;
 }
@@ -43,6 +52,7 @@ body {
 	
 	.header-button {
 		display:block;
+		cursor:pointer;
 	}
 	
 	#header-nav {
@@ -85,7 +95,7 @@ body {
 		height:60%;
 		
 		li {
-			padding-left:$app-pad * .75;
+			padding-left:$app-pad;
 		}
 	}
 }
@@ -107,7 +117,7 @@ body {
 		width:60%;
 		
 		li {
-			padding-top:$app-pad * .75;
+			padding-top:$app-pad;
 		}
 	}
 }
@@ -181,4 +191,61 @@ body {
 #app-content {
 	background:#fff;
 	padding:$app-pad;
+}
+
+.unit-over-aspect {
+	.unit-hero {
+		position:relative;
+		overflow:hidden;
+	}
+	
+	.unit-hero-img, .unit-hero-aspect {
+		width:100%;
+		height:auto;
+	}
+	
+	.unit-hero-img {
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	
+	.unit-overlay {
+		position:absolute;
+		bottom:0px;
+		left:0px;
+		display:inline-block;
+		padding:$app-pad * .75;
+	}
+	
+	.unit-title {
+		border-left:$title-pad $dnews-blue solid;
+		font-size:$title-size;
+		line-height:$title-size + $title-pad;
+		font-family:'Crete Round';
+		
+		span {
+			display:inline-block;
+			background:$dnews-blue;
+			color:#fff;
+			padding-right:$title-pad;
+			
+		}
+	}
+	
+	.unit-content {
+		padding:$app-pad 0;
+	}
+}
+
+.stream {
+	.unit {
+		margin-bottom:$app-pad * 1.5;
+		background:url('../img/stream-dots.png') left bottom repeat-x;
+	}
+	
+	.unit:last-child {
+		margin-bottom:0px;
+		background:none;
+	}
 }
