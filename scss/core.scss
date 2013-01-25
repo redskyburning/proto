@@ -189,8 +189,11 @@ body {
 }
 
 #app-content {
-	background:#fff;
 	padding:$app-pad;
+	
+	.page {
+		background:#fff;
+	}
 }
 
 .unit-over-aspect {
