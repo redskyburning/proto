@@ -40,7 +40,7 @@ body {
 
 #app-header {
 	position:fixed;
-	top:-2px;
+	top:-10px;
 	left:0px;
 	background:#666;
 	@include box-sizing(border-box);
@@ -189,9 +189,9 @@ body {
 }
 
 #app-content {
-	padding:$app-pad;
 	
 	.page {
+		padding:$app-pad;
 		background:#fff;
 	}
 }

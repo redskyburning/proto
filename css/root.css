@@ -712,7 +712,7 @@ html {
 /* line 41, ../scss/core.scss */
 #app-header {
   position: fixed;
-  top: -2px;
+  top: -10px;
   left: 0px;
   background: #666;
   -webkit-box-sizing: border-box;
@@ -902,12 +902,9 @@ html {
     width: 1.2rem;
   }
 }
-/* line 191, ../scss/core.scss */
-#app-content {
-  padding: 0.3rem;
-}
-/* line 194, ../scss/core.scss */
+/* line 193, ../scss/core.scss */
 #app-content .page {
+  padding: 0.3rem;
   background: #fff;
 }
 
