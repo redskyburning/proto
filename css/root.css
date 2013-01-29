@@ -764,7 +764,7 @@ html {
   background: #444;
   color: #fff;
   z-index: 90;
-  padding: 0.3rem;
+  padding: 0.4rem;
 }
 
 /* line 79, ../scss/core.scss */
@@ -775,7 +775,7 @@ html {
 @media only screen and (orientation: portrait) {
   /* line 84, ../scss/core.scss */
   #app-header {
-    padding: 0.225rem 0.3rem;
+    padding: 0.3rem 0.4rem;
     background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #4a4a4a), color-stop(100%, #2c2c2c));
     background-image: -webkit-linear-gradient(bottom, #4a4a4a, #2c2c2c);
     background-image: -moz-linear-gradient(bottom, #4a4a4a, #2c2c2c);
@@ -795,13 +795,13 @@ html {
   }
   /* line 97, ../scss/core.scss */
   #header-nav li {
-    padding-left: 0.3rem;
+    padding-left: 0.4rem;
   }
 }
 @media only screen and (orientation: landscape) {
   /* line 104, ../scss/core.scss */
   #app-header {
-    padding: 0.3rem 0.225rem;
+    padding: 0.4rem 0.3rem;
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     -ms-box-orient: vertical;
@@ -829,18 +829,18 @@ html {
   }
   /* line 119, ../scss/core.scss */
   #header-nav li {
-    padding-top: 0.3rem;
+    padding-top: 0.4rem;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 400px) {
   /* line 127, ../scss/core.scss */
   #app-root {
-    padding: 1.6rem 0.3rem 0px;
+    padding: 1.6rem 0.4rem 0px;
   }
 
   /* line 131, ../scss/core.scss */
   .app-drawer {
-    padding: 1.9rem 0.3rem 0px;
+    padding: 2rem 0.4rem 0px;
   }
 
   /* line 135, ../scss/core.scss */
@@ -852,13 +852,13 @@ html {
 @media only screen and (orientation: landscape) and (max-height: 400px) {
   /* line 143, ../scss/core.scss */
   #app-root {
-    padding: 0px 0.3rem 0px 1.9rem;
+    padding: 0px 0.4rem 0px 2rem;
   }
 
   /* line 147, ../scss/core.scss */
   .app-drawer {
-    padding: 0.3rem;
-    padding-left: 1.9rem;
+    padding: 0.4rem;
+    padding-left: 2rem;
   }
 
   /* line 152, ../scss/core.scss */
@@ -870,12 +870,12 @@ html {
 @media only screen and (orientation: portrait) and (min-width: 401px) {
   /* line 160, ../scss/core.scss */
   #app-root {
-    padding: 1.2rem 0.3rem 0px;
+    padding: 1.2rem 0.4rem 0px;
   }
 
   /* line 164, ../scss/core.scss */
   .app-drawer {
-    padding: 1.5rem 0.3rem 0px;
+    padding: 1.6rem 0.4rem 0px;
   }
 
   /* line 168, ../scss/core.scss */
@@ -887,13 +887,13 @@ html {
 @media only screen and (orientation: landscape) and (min-height: 401px) {
   /* line 176, ../scss/core.scss */
   #app-root {
-    padding: 0px 0.3rem 0px 1.5rem;
+    padding: 0px 0.4rem 0px 1.6rem;
   }
 
   /* line 180, ../scss/core.scss */
   .app-drawer {
-    padding: 0.3rem;
-    padding-left: 1.5rem;
+    padding: 0.4rem;
+    padding-left: 1.6rem;
   }
 
   /* line 185, ../scss/core.scss */
@@ -904,7 +904,7 @@ html {
 }
 /* line 193, ../scss/core.scss */
 #app-content .page {
-  padding: 0.3rem;
+  padding: 0.4rem;
   background: #fff;
 }
 
@@ -930,7 +930,7 @@ html {
   bottom: 0px;
   left: 0px;
   display: inline-block;
-  padding: 0.225rem;
+  padding: 0.3rem;
 }
 /* line 224, ../scss/core.scss */
 .unit-over-aspect .unit-title {
@@ -948,12 +948,12 @@ html {
 }
 /* line 239, ../scss/core.scss */
 .unit-over-aspect .unit-content {
-  padding: 0.3rem 0;
+  padding: 0.4rem 0;
 }
 
 /* line 245, ../scss/core.scss */
 .stream .unit {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.6rem;
   background: url("../img/stream-dots.png") left bottom repeat-x;
 }
 /* line 250, ../scss/core.scss */
