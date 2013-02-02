@@ -1,12 +1,23 @@
 $header-min-p:1.6rem;
 $header-min-t:1.2rem;
 $app-pad:.4rem;
-$title-size:.55rem;
 $title-pad:.2rem;
-$root-size:.35rem;
-$root-lh:1.4em;
-$dnews-blue:#3f85a6;
 
+$root-size:.35rem;
+$title-size:.55rem;
+$h2-size:.45rem;
+$root-lh:1.4em;
+
+$dnews-blue:#3f85a6;
+$dnews-light-blue:#6ba7c4;
+$dnews-link-blue:#115a7c;
+
+$dnews-grey:#9a9a9a;
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
 
 ::-webkit-scrollbar {
     width: 2px;
@@ -196,6 +207,7 @@ body {
 	}
 }
 
+/*
 .unit-over-aspect {
 	.unit-hero {
 		position:relative;
@@ -240,15 +252,4 @@ body {
 		padding:$app-pad 0;
 	}
 }
-
-.stream {
-	.unit {
-		margin-bottom:$app-pad * 1.5;
-		background:url('../img/stream-dots.png') left bottom repeat-x;
-	}
-	
-	.unit:last-child {
-		margin-bottom:0px;
-		background:none;
-	}
-}
+*/

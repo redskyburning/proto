@@ -594,3 +594,174 @@
 2013-01-25 17:15:38     error scss/core.scss (Line 25: Undefined mixin 'background'.)
 2013-01-25 17:15:38 identical css/core.css 
 2013-01-25 17:15:38 overwrite css/root.css 
+2013-02-01 13:45:20     error scss/core.scss (Line 25: Undefined mixin 'background'.)
+2013-02-01 13:45:20 overwrite css/core.css 
+2013-02-01 13:45:22 overwrite css/root.css 
+2013-02-01 13:45:26     error scss/core.scss (Line 25: Undefined mixin 'background'.)
+2013-02-01 13:45:26 overwrite css/core.css 
+2013-02-01 13:45:26 identical css/root.css 
+2013-02-01 13:46:06     error scss/core.scss (Line 25: Undefined mixin 'background'.)
+2013-02-01 13:46:06 identical css/core.css 
+2013-02-01 13:46:06 overwrite css/root.css 
+2013-02-01 13:49:52     error scss/core.scss (Line 12: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:49:52 overwrite css/core.css 
+2013-02-01 13:49:53     error scss/root.scss (Line 12 of scss/core.scss: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:49:53 overwrite css/root.css 
+2013-02-01 13:52:49     error scss/core.scss (Line 12: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:52:49 identical css/core.css 
+2013-02-01 13:52:50     error scss/root.scss (Line 12 of scss/core.scss: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:52:50 identical css/root.css 
+2013-02-01 13:54:45     error scss/core.scss (Line 12: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:54:45 identical css/core.css 
+2013-02-01 13:54:45     error scss/root.scss (Line 12 of scss/core.scss: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:54:45 identical css/root.css 
+2013-02-01 13:56:16     error scss/core.scss (Line 12: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:56:16 identical css/core.css 
+2013-02-01 13:56:17     error scss/root.scss (Line 12 of scss/core.scss: Invalid CSS after "$dnews-link-blue:": expected expression (e.g. 1px, bold), was "##115a7c;")
+2013-02-01 13:56:17 identical css/root.css 
+2013-02-01 13:57:16     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 13:57:16 overwrite css/core.css 
+2013-02-01 13:57:17 overwrite css/root.css 
+2013-02-01 13:57:49     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 13:57:49 identical css/core.css 
+2013-02-01 13:57:50 overwrite css/root.css 
+2013-02-01 13:58:34     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 13:58:34 identical css/core.css 
+2013-02-01 13:58:35 overwrite css/root.css 
+2013-02-01 13:59:00     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 13:59:00 identical css/core.css 
+2013-02-01 13:59:00 overwrite css/root.css 
+2013-02-01 22:19:36     error scss/root.scss (Line 7: File to import not found or unreadable: unit.scss.
+Load paths:
+  C:/wamp/www/proto/scss
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.2.1.0/vendor/assets/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/susy-1.0.4/sass
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.2.2/scss
+  Compass::SpriteImporter)
+2013-02-01 22:19:36 overwrite css/root.css 
+2013-02-01 22:20:25 overwrite css/root.css 
+2013-02-01 22:20:25    create css/unit.css 
+2013-02-01 22:29:25 overwrite css/root.css 
+2013-02-01 22:29:25     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:29:25 overwrite css/unit.css 
+2013-02-01 22:30:19 identical css/root.css 
+2013-02-01 22:30:19     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:30:19 identical css/unit.css 
+2013-02-01 22:31:42 overwrite css/root.css 
+2013-02-01 22:31:42     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:31:42 overwrite css/unit.css 
+2013-02-01 22:31:51 identical css/root.css 
+2013-02-01 22:31:51     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:31:51 identical css/unit.css 
+2013-02-01 22:32:34 overwrite css/root.css 
+2013-02-01 22:32:34     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:32:34 identical css/unit.css 
+2013-02-01 22:38:07 overwrite css/root.css 
+2013-02-01 22:38:07     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:38:07 identical css/unit.css 
+2013-02-01 22:54:21 overwrite css/root.css 
+2013-02-01 22:54:21     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:54:21 overwrite css/unit.css 
+2013-02-01 22:55:00 overwrite css/root.css 
+2013-02-01 22:55:00     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:55:00 identical css/unit.css 
+2013-02-01 22:56:34 overwrite css/root.css 
+2013-02-01 22:56:34     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 22:56:34 identical css/unit.css 
+2013-02-01 23:07:48 overwrite css/root.css 
+2013-02-01 23:07:48     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 23:07:48 identical css/unit.css 
+2013-02-01 23:10:48 overwrite css/root.css 
+2013-02-01 23:10:48     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 23:10:48 identical css/unit.css 
+2013-02-01 23:11:00 overwrite css/root.css 
+2013-02-01 23:11:00     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 23:11:00 identical css/unit.css 
+2013-02-01 23:24:31     error scss/pages.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-01 23:24:31    create css/pages.css 
+2013-02-01 23:26:21     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 23:26:21 overwrite css/core.css 
+2013-02-01 23:26:21 overwrite css/root.css 
+2013-02-01 23:28:19     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-01 23:28:19 overwrite css/pages.css 
+2013-02-01 23:30:37 overwrite css/root.css 
+2013-02-01 23:51:52 overwrite css/root.css 
+2013-02-01 23:52:09     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 23:52:09 identical css/core.css 
+2013-02-01 23:52:09 overwrite css/root.css 
+2013-02-01 23:53:06 overwrite css/root.css 
+2013-02-01 23:56:43     error scss/core.scss (Line 30: Undefined mixin 'background'.)
+2013-02-01 23:56:43 identical css/core.css 
+2013-02-01 23:56:43 overwrite css/root.css 
+2013-02-01 23:56:48 overwrite css/root.css 
+2013-02-02 00:08:08     error scss/pages.scss (Line 60: Invalid CSS after "...m left repeat-x": expected ")", was ";")
+2013-02-02 00:08:08 overwrite css/pages.css 
+2013-02-02 00:08:09     error scss/root.scss (Line 60 of scss/pages.scss: Invalid CSS after "...m left repeat-x": expected ")", was ";")
+2013-02-02 00:08:09 overwrite css/root.css 
+2013-02-02 00:08:29     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 00:08:29 overwrite css/pages.css 
+2013-02-02 00:08:30 overwrite css/root.css 
+2013-02-02 00:09:04     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 00:09:04 identical css/pages.css 
+2013-02-02 00:09:04 overwrite css/root.css 
+2013-02-02 14:41:44 overwrite css/root.css 
+2013-02-02 14:41:44     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-02 14:41:44 identical css/unit.css 
+2013-02-02 14:48:08     error scss/core.scss (Line 32: Undefined mixin 'background'.)
+2013-02-02 14:48:08 overwrite css/core.css 
+2013-02-02 14:48:08 overwrite css/root.css 
+2013-02-02 14:49:44     error scss/core.scss (Line 33: Undefined mixin 'background'.)
+2013-02-02 14:49:44 overwrite css/core.css 
+2013-02-02 14:49:44 overwrite css/root.css 
+2013-02-02 14:50:13 overwrite css/root.css 
+2013-02-02 14:50:13     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-02 14:50:13 identical css/unit.css 
+2013-02-02 14:53:40 overwrite css/root.css 
+2013-02-02 14:53:40     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-02 14:53:40 identical css/unit.css 
+2013-02-02 14:54:34     error scss/core.scss (Line 35: Undefined mixin 'background'.)
+2013-02-02 14:54:34 overwrite css/core.css 
+2013-02-02 14:54:34 overwrite css/root.css 
+2013-02-02 14:56:34     error scss/core.scss (Line 36: Undefined mixin 'background'.)
+2013-02-02 14:56:34 overwrite css/core.css 
+2013-02-02 14:56:34 overwrite css/root.css 
+2013-02-02 14:57:51     error scss/pages.scss (Line 13: Undefined variable: "$app-pad".)
+2013-02-02 14:57:51 overwrite css/pages.css 
+2013-02-02 14:57:52 overwrite css/root.css 
+2013-02-02 14:59:30     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 14:59:31 overwrite css/pages.css 
+2013-02-02 14:59:31 overwrite css/root.css 
+2013-02-02 15:00:08     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:00:08 identical css/pages.css 
+2013-02-02 15:00:08 overwrite css/root.css 
+2013-02-02 15:00:54     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:00:55 identical css/pages.css 
+2013-02-02 15:00:55 overwrite css/root.css 
+2013-02-02 15:01:14     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:01:14 identical css/pages.css 
+2013-02-02 15:01:14 overwrite css/root.css 
+2013-02-02 15:02:18     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:02:19 identical css/pages.css 
+2013-02-02 15:02:19 overwrite css/root.css 
+2013-02-02 15:20:36     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:20:36 identical css/pages.css 
+2013-02-02 15:20:37 overwrite css/root.css 
+2013-02-02 15:23:05     error scss/pages.scss (Line 5: Undefined variable: "$app-pad".)
+2013-02-02 15:23:05 identical css/pages.css 
+2013-02-02 15:23:05 overwrite css/root.css 
+2013-02-02 15:38:41 overwrite css/root.css 
+2013-02-02 15:38:41     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-02 15:38:41 identical css/unit.css 
+2013-02-02 15:39:08 overwrite css/root.css 
+2013-02-02 15:39:08     error scss/unit.scss (Line 2: Undefined variable: "$app-pad".)
+2013-02-02 15:39:08 identical css/unit.css 
+2013-02-02 16:03:09     error scss/pages.scss (Line 5: Undefined mixin 'background'.)
+2013-02-02 16:03:09 overwrite css/pages.css 
+2013-02-02 16:03:10 overwrite css/root.css 

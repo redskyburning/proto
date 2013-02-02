@@ -1,0 +1,88 @@
+
+
+.stream {
+	.unit {
+		@include background(inline-image('stream-dots.png') bottom left repeat-x);
+		margin-bottom:$app-pad * .75;
+		padding-bottom:$app-pad * .75;
+	}
+	
+	.unit:last-child {
+		background:none;
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+
+	.unit-hero {
+		margin-bottom:$app-pad * .5;
+	}
+	
+	.content-super, .content-sub {
+		margin-top:$app-pad * .25;
+	}
+	
+	.content-main {
+		margin-top:$app-pad * .5;
+	}
+	
+	.content-title {
+		display:none;
+	}
+}
+
+.page-article {
+	font-family:'Trebuchet MS';
+
+	.lead-image {
+		width:100%; 
+		height:auto;
+		display:block;
+		margin-bottom:$app-pad;
+	}
+	
+	h2 {
+		font-size:$h2-size;
+		font-family:'Crete Round';
+		margin-bottom:0px;
+		
+		a {
+			font-weight:normal;
+		}
+	}
+		
+	a {
+		color:$dnews-link-blue;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+}
+
+.home-page {
+	.unit {
+		.hero-over {
+			.over-main { 
+				border-left:$title-pad * 1.5 $dnews-blue solid;
+				font-size:$title-size * 1.5;
+				line-height:$title-size * 1.5 + $title-pad * 1.5;
+				
+				span {
+					padding-right:$title-pad * 1.5;
+					
+				}
+			}
+		}
+	}
+	
+	.stream-item {
+		@include background(inline-image('stream-dots.png') bottom left repeat-x);
+		margin-bottom:$app-pad * .75;
+		padding-bottom:$app-pad * .75;
+	}
+	
+	.stream-item:last-child {
+		background:none;
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+}

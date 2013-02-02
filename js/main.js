@@ -8,28 +8,31 @@ function prepRem() {
 	$('#app-root').show();
 }
 
+function prepContentHandlers(){
+	$('.page a').click(function(event) {
+		event.preventDefault();
+		loadPage($(this).attr('href'));
+	});
+}
+
 function loadPage(href){
-	$('#app-content').load(urlBase);
+	$('#app-content').load(href, function(){
+		prepContentHandlers();
 	
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', urlBase);
-	xhr.onreadystatechange = function () {
-	  if (this.status == 200 && this.readyState == 4) {
-		console.log('response: ' + this.responseText);
-	  }
-	};
-	xhr.send();
+	});
+	
 }
 
 
 urlBase = 'http://www.redskyburning.com/test.php';
 urlBase = 'http://news.discovery.com.bwebb.dev-007.dp.discovery.com';
+urlBase = 'http://news.discovery.com.bwebb.dev-007.dp.discovery.com/earth';
 
 $(document).ready(function(){
 	prepRem();
 	
 	$('#logo').click(function(){
-		loadPage();
+		loadPage(urlBase);
 	});
 	
 	$('.header-button').click(function(e){
@@ -42,5 +45,5 @@ $(document).ready(function(){
 			tango.addClass('active');
 		}
 	});
-		loadPage();
+		loadPage(urlBase);
 });

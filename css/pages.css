@@ -1,12 +1,26 @@
 /*
 Syntax error: Undefined mixin 'background'.
-        on line 36 of C:/wamp/www/proto/scss/core.scss, in `background'
-        from line 36 of C:/wamp/www/proto/scss/core.scss
+        on line 5 of C:/wamp/www/proto/scss/pages.scss, in `background'
+        from line 5 of C:/wamp/www/proto/scss/pages.scss
+
+1: C:/wamp/www/proto/scss/pages.scss
 
 Backtrace:
-C:/wamp/www/proto/scss/core.scss:36:in `background'
-C:/wamp/www/proto/scss/core.scss:36
+C:/wamp/www/proto/scss/pages.scss:5:in `background'
+C:/wamp/www/proto/scss/pages.scss:5
 C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:251:in `visit_mixin'
+org/jruby/RubyBasicObject.java:1673:in `__send__'
+org/jruby/RubyKernel.java:2081:in `send'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2355:in `map'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
 org/jruby/RubyBasicObject.java:1673:in `__send__'
 org/jruby/RubyKernel.java:2081:in `send'
 C:/Users/bwebb/Desktop/compass.app/lib/ruby/compass_common/sass-3.2.3/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -77,4 +91,4 @@ file:/C:/Users/bwebb/Desktop/compass.app/compass-app.jar!/ui/tray.rb:425:in `wat
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'background'.\A         on line 36 of C:/wamp/www/proto/scss/core.scss, in `background'\A         from line 36 of C:/wamp/www/proto/scss/core.scss"; }
+  content: "Syntax error: Undefined mixin 'background'.\A         on line 5 of C:/wamp/www/proto/scss/pages.scss, in `background'\A         from line 5 of C:/wamp/www/proto/scss/pages.scss\A \A 1: C:/wamp/www/proto/scss/pages.scss"; }

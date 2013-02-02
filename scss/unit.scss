@@ -1,0 +1,72 @@
+.unit {
+	margin-bottom:$app-pad;
+
+	.hero-main {
+		position:relative;
+	}
+	
+	.hero-image, .hero-aspect {
+		width:100%;
+		height:auto; 
+	}
+	
+	.hero-over {
+		position:absolute;
+		bottom:0px;
+		left:0px;
+		padding:$app-pad * .75;
+	
+		.over-main { 
+			border-left:$title-pad $dnews-blue solid;
+			font-size:$title-size;
+			line-height:$title-size + $title-pad;
+			font-family:'Crete Round';
+			
+			span {
+				display:inline-block;
+				background:$dnews-blue;
+				color:#fff;
+				padding-right:$title-pad;
+				
+			}
+		}
+	}
+	
+	.unit-content {
+		font-family:'Trebuchet MS';
+	}
+	
+	.content-title {
+		font-family:'Crete Round';
+		font-size:$h2-size;
+		color:$dnews-link-blue;
+	}
+	
+	.content-super {
+		color:$dnews-grey;
+		text-transform:uppercase;
+		font-size:.8em;
+		
+		span {
+			font-weight:bold;
+		}
+		
+		a {
+			color:$dnews-light-blue;
+		}
+	}
+	
+}
+
+.unit.unit-aspect {
+	.hero-main {
+		overflow:hidden;
+		
+		.hero-image {
+			position:absolute;
+			top:0px;
+			left:0px;
+		}
+	}
+	
+}
