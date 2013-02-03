@@ -71,3 +71,33 @@
 	}
 	
 }
+
+// Tablet Portrait
+
+@media only screen and (orientation: portrait) and (min-width: 401px) {
+	.unit {
+		.hero-over {
+			.over-main {
+				border-left:$title-pad-tablet $dnews-blue solid;
+				font-size:$title-size-tablet;
+				line-height:$title-size-tablet;
+				
+				span {
+					padding:$title-pad-tablet;
+					padding-left:0px;
+					
+				}
+			}
+		}
+		
+		.content-title {
+			font-size:$title-size-tablet;
+		}
+	}
+}
+
+// Tablet Landscape
+
+@media only screen and (orientation: landscape) and (min-height: 401px)  {
+
+}
