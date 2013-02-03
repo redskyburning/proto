@@ -4,6 +4,7 @@ $app-pad:.4rem;
 $title-pad:.2rem;
 
 $root-size:.35rem;
+$root-size-tablet:.3rem;
 $title-size:.55rem;
 $h2-size:.45rem;
 $root-lh:1.4em;
@@ -91,6 +92,16 @@ body {
 	display:block;
 }
 
+#app-content {
+	
+	.page {
+		padding:$app-pad;
+		background:#fff;
+	}
+}
+
+// General Portrait
+
 @media only screen and (orientation: portrait) {
 	#app-header {
 		padding:($app-pad * .75) $app-pad;
@@ -110,6 +121,8 @@ body {
 		}
 	}
 }
+
+// General Landscape
 
 @media only screen and (orientation: landscape) {
 	#app-header {
@@ -133,6 +146,8 @@ body {
 	}
 }
 
+// Phone Portrait
+
 @media only screen and (orientation: portrait) and (max-width: 400px) {
 
 	#app-root {
@@ -148,6 +163,8 @@ body {
 		height:$header-min-p;	
 	}
 }
+
+// Phone Landscape
 
 @media only screen and (orientation: landscape) and (max-height: 400px)  {
 
@@ -166,10 +183,13 @@ body {
 	}
 }
 
+// Tablet Portrait
+
 @media only screen and (orientation: portrait) and (min-width: 401px) {
 
 	#app-root {
 		padding:$header-min-t $app-pad 0px;	
+		font-size:$root-size-tablet;
 	}
 
 	.app-drawer {
@@ -182,10 +202,13 @@ body {
 	}
 }
 
+// Tablet Landscape
+
 @media only screen and (orientation: landscape) and (min-height: 401px)  {
 
 	#app-root {
 		padding:0px $app-pad 0px ($header-min-t + $app-pad);	
+		font-size:$root-size-tablet;
 	}
 
 	.app-drawer {
@@ -198,58 +221,3 @@ body {
 		width:$header-min-t;	
 	}
 }
-
-#app-content {
-	
-	.page {
-		padding:$app-pad;
-		background:#fff;
-	}
-}
-
-/*
-.unit-over-aspect {
-	.unit-hero {
-		position:relative;
-		overflow:hidden;
-	}
-	
-	.unit-hero-img, .unit-hero-aspect {
-		width:100%;
-		height:auto;
-	}
-	
-	.unit-hero-img {
-		position:absolute;
-		top:0px;
-		left:0px;
-	}
-	
-	.unit-overlay {
-		position:absolute;
-		bottom:0px;
-		left:0px;
-		display:inline-block;
-		padding:$app-pad * .75;
-	}
-	
-	.unit-title {
-		border-left:$title-pad $dnews-blue solid;
-		font-size:$title-size;
-		line-height:$title-size + $title-pad;
-		font-family:'Crete Round';
-		
-		span {
-			display:inline-block;
-			background:$dnews-blue;
-			color:#fff;
-			padding-right:$title-pad;
-			
-		}
-	}
-	
-	.unit-content {
-		padding:$app-pad 0;
-	}
-}
-*/

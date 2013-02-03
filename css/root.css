@@ -675,34 +675,34 @@ ul, ol, li {
   list-style: none;
 }
 
-/* line 17, ../scss/core.scss */
+/* line 18, ../scss/core.scss */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 22, ../scss/core.scss */
+/* line 23, ../scss/core.scss */
 ::-webkit-scrollbar {
   width: 2px;
 }
 
-/* line 26, ../scss/core.scss */
+/* line 27, ../scss/core.scss */
 ::-webkit-scrollbar-track {
   border-radius: 2px;
 }
 
-/* line 30, ../scss/core.scss */
+/* line 31, ../scss/core.scss */
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
 }
 
-/* line 34, ../scss/core.scss */
+/* line 35, ../scss/core.scss */
 html {
   font-size: 1vmin;
   background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUE3QjFDRUYzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUE3QjFDRjAzOEI0MTFFMjk5QTk5RTUzODJFRjdEOEMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTdCMUNFRDM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTdCMUNFRTM4QjQxMUUyOTlBOTlFNTM4MkVGN0Q4QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvEK1l8AAAAzSURBVHjaYjxz5gwDEjgOYzBhEzQ2NrZkwiZ49uxZsA4MQRSjoIIiMBOY0FS+gZkAEGAAfsYV0BEy/9AAAAAASUVORK5CYII=');
 }
 
-/* line 42, ../scss/core.scss */
+/* line 43, ../scss/core.scss */
 #app-root {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -715,7 +715,7 @@ html {
   display: none;
 }
 
-/* line 52, ../scss/core.scss */
+/* line 53, ../scss/core.scss */
 #app-header {
   position: fixed;
   top: 0px;
@@ -738,12 +738,12 @@ html {
   box-align: center;
   z-index: 100;
 }
-/* line 64, ../scss/core.scss */
+/* line 65, ../scss/core.scss */
 #app-header .header-button {
   display: block;
   cursor: pointer;
 }
-/* line 69, ../scss/core.scss */
+/* line 70, ../scss/core.scss */
 #app-header #header-nav {
   display: -webkit-box;
   display: -moz-box;
@@ -755,7 +755,7 @@ html {
   box-pack: end;
 }
 
-/* line 75, ../scss/core.scss */
+/* line 76, ../scss/core.scss */
 .app-drawer {
   position: fixed;
   top: 0px;
@@ -773,13 +773,19 @@ html {
   padding: 0.4rem;
 }
 
-/* line 90, ../scss/core.scss */
+/* line 91, ../scss/core.scss */
 .app-drawer.active {
   display: block;
 }
 
+/* line 97, ../scss/core.scss */
+#app-content .page {
+  padding: 0.4rem;
+  background: #fff;
+}
+
 @media only screen and (orientation: portrait) {
-  /* line 95, ../scss/core.scss */
+  /* line 106, ../scss/core.scss */
   #app-header {
     padding: 0.3rem 0.4rem;
     background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #4a4a4a), color-stop(100%, #2c2c2c));
@@ -789,23 +795,23 @@ html {
     background-image: linear-gradient(bottom, #4a4a4a, #2c2c2c);
   }
 
-  /* line 100, ../scss/core.scss */
+  /* line 111, ../scss/core.scss */
   .header-button {
     height: 100%;
     width: auto;
   }
 
-  /* line 105, ../scss/core.scss */
+  /* line 116, ../scss/core.scss */
   #header-nav {
     height: 60%;
   }
-  /* line 108, ../scss/core.scss */
+  /* line 119, ../scss/core.scss */
   #header-nav li {
     padding-left: 0.4rem;
   }
 }
 @media only screen and (orientation: landscape) {
-  /* line 115, ../scss/core.scss */
+  /* line 128, ../scss/core.scss */
   #app-header {
     padding: 0.4rem 0.3rem;
     -webkit-box-orient: vertical;
@@ -819,13 +825,13 @@ html {
     background-image: linear-gradient(right, #4a4a4a, #2c2c2c);
   }
 
-  /* line 121, ../scss/core.scss */
+  /* line 134, ../scss/core.scss */
   .header-button {
     width: 100%;
     height: auto;
   }
 
-  /* line 126, ../scss/core.scss */
+  /* line 139, ../scss/core.scss */
   #header-nav {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
@@ -833,133 +839,83 @@ html {
     box-orient: vertical;
     width: 60%;
   }
-  /* line 130, ../scss/core.scss */
+  /* line 143, ../scss/core.scss */
   #header-nav li {
     padding-top: 0.4rem;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 400px) {
-  /* line 138, ../scss/core.scss */
+  /* line 153, ../scss/core.scss */
   #app-root {
     padding: 1.6rem 0.4rem 0px;
   }
 
-  /* line 142, ../scss/core.scss */
+  /* line 157, ../scss/core.scss */
   .app-drawer {
     padding: 2rem 0.4rem 0px;
   }
 
-  /* line 146, ../scss/core.scss */
+  /* line 161, ../scss/core.scss */
   #app-header {
     width: 100%;
     height: 1.6rem;
   }
 }
 @media only screen and (orientation: landscape) and (max-height: 400px) {
-  /* line 154, ../scss/core.scss */
+  /* line 171, ../scss/core.scss */
   #app-root {
     padding: 0px 0.4rem 0px 2rem;
   }
 
-  /* line 158, ../scss/core.scss */
+  /* line 175, ../scss/core.scss */
   .app-drawer {
     padding: 0.4rem;
     padding-left: 2rem;
   }
 
-  /* line 163, ../scss/core.scss */
+  /* line 180, ../scss/core.scss */
   #app-header {
     height: 100%;
     width: 1.6rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-width: 401px) {
-  /* line 171, ../scss/core.scss */
+  /* line 190, ../scss/core.scss */
   #app-root {
     padding: 1.2rem 0.4rem 0px;
+    font-size: 0.3rem;
   }
 
-  /* line 175, ../scss/core.scss */
+  /* line 195, ../scss/core.scss */
   .app-drawer {
     padding: 1.6rem 0.4rem 0px;
   }
 
-  /* line 179, ../scss/core.scss */
+  /* line 199, ../scss/core.scss */
   #app-header {
     width: 100%;
     height: 1.2rem;
   }
 }
 @media only screen and (orientation: landscape) and (min-height: 401px) {
-  /* line 187, ../scss/core.scss */
+  /* line 209, ../scss/core.scss */
   #app-root {
     padding: 0px 0.4rem 0px 1.6rem;
+    font-size: 0.3rem;
   }
 
-  /* line 191, ../scss/core.scss */
+  /* line 214, ../scss/core.scss */
   .app-drawer {
     padding: 0.4rem;
     padding-left: 1.6rem;
   }
 
-  /* line 196, ../scss/core.scss */
+  /* line 219, ../scss/core.scss */
   #app-header {
     height: 100%;
     width: 1.2rem;
   }
 }
-/* line 204, ../scss/core.scss */
-#app-content .page {
-  padding: 0.4rem;
-  background: #fff;
-}
-
-/*
-.unit-over-aspect {
-	.unit-hero {
-		position:relative;
-		overflow:hidden;
-	}
-	
-	.unit-hero-img, .unit-hero-aspect {
-		width:100%;
-		height:auto;
-	}
-	
-	.unit-hero-img {
-		position:absolute;
-		top:0px;
-		left:0px;
-	}
-	
-	.unit-overlay {
-		position:absolute;
-		bottom:0px;
-		left:0px;
-		display:inline-block;
-		padding:$app-pad * .75;
-	}
-	
-	.unit-title {
-		border-left:$title-pad $dnews-blue solid;
-		font-size:$title-size;
-		line-height:$title-size + $title-pad;
-		font-family:'Crete Round';
-		
-		span {
-			display:inline-block;
-			background:$dnews-blue;
-			color:#fff;
-			padding-right:$title-pad;
-			
-		}
-	}
-	
-	.unit-content {
-		padding:$app-pad 0;
-	}
-}
-*/
 /* line 1, ../scss/unit.scss */
 .unit {
   margin-bottom: 0.4rem;
@@ -984,7 +940,7 @@ html {
 .unit .hero-over .over-main {
   border-left: 0.2rem #3f85a6 solid;
   font-size: 0.55rem;
-  line-height: 0.75rem;
+  line-height: 0.55rem;
   font-family: 'Crete Round';
 }
 /* line 25, ../scss/unit.scss */
@@ -992,38 +948,39 @@ html {
   display: inline-block;
   background: #3f85a6;
   color: #fff;
-  padding-right: 0.2rem;
+  padding: 0.2rem;
+  padding-left: 0px;
 }
-/* line 35, ../scss/unit.scss */
+/* line 36, ../scss/unit.scss */
 .unit .unit-content {
   font-family: 'Trebuchet MS';
 }
-/* line 39, ../scss/unit.scss */
+/* line 40, ../scss/unit.scss */
 .unit .content-title {
   font-family: 'Crete Round';
-  font-size: 0.45rem;
+  font-size: 0.55rem;
   color: #115a7c;
 }
-/* line 45, ../scss/unit.scss */
+/* line 46, ../scss/unit.scss */
 .unit .content-super {
   color: #9a9a9a;
   text-transform: uppercase;
   font-size: .8em;
 }
-/* line 50, ../scss/unit.scss */
+/* line 51, ../scss/unit.scss */
 .unit .content-super span {
   font-weight: bold;
 }
-/* line 54, ../scss/unit.scss */
+/* line 55, ../scss/unit.scss */
 .unit .content-super a {
   color: #6ba7c4;
 }
 
-/* line 62, ../scss/unit.scss */
+/* line 63, ../scss/unit.scss */
 .unit.unit-aspect .hero-main {
   overflow: hidden;
 }
-/* line 65, ../scss/unit.scss */
+/* line 66, ../scss/unit.scss */
 .unit.unit-aspect .hero-main .hero-image {
   position: absolute;
   top: 0px;

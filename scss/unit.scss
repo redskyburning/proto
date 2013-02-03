@@ -19,14 +19,15 @@
 		.over-main { 
 			border-left:$title-pad $dnews-blue solid;
 			font-size:$title-size;
-			line-height:$title-size + $title-pad;
+			line-height:$title-size;
 			font-family:'Crete Round';
 			
 			span {
 				display:inline-block;
 				background:$dnews-blue;
 				color:#fff;
-				padding-right:$title-pad;
+				padding:$title-pad;
+				padding-left:0px;
 				
 			}
 		}
@@ -38,7 +39,7 @@
 	
 	.content-title {
 		font-family:'Crete Round';
-		font-size:$h2-size;
+		font-size:$title-size;
 		color:$dnews-link-blue;
 	}
 	
