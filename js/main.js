@@ -23,10 +23,8 @@ function loadPage(href){
 	
 }
 
-
-urlBase = 'http://www.redskyburning.com/test.php';
-urlBase = 'http://news.discovery.com.bwebb.dev-007.dp.discovery.com';
 urlBase = 'http://news.discovery.com.bwebb.dev-007.dp.discovery.com/earth';
+urlBase = 'http://news.discovery.com.bwebb.dev-007.dp.discovery.com';
 
 $(document).ready(function(){
 	prepRem();
