@@ -34,7 +34,7 @@ var app = {
     },
 	slideStack: function(pageNum) {
 		//$('#app-stack').css('left',(pageNum * -1 * this.vmin)+'px');
-		$('#app-stack').animate({'left':(pageNum * -1 * this.vmin)+'px'},.5,'linear');
+		$('#app-stack').animate({'left':(pageNum * -1 * this.vmin)+'px'},2,'linear');
 	},
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.

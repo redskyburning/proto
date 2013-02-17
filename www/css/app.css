@@ -770,10 +770,10 @@ html, body, #app-root {
   -moz-transition-property: left;
   -o-transition-property: left;
   transition-property: left;
-  -webkit-transition-duration: 0.35s;
-  -moz-transition-duration: 0.35s;
-  -o-transition-duration: 0.35s;
-  transition-duration: 0.35s;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
   -webkit-transition-timing-function: ease-in;
   -moz-transition-timing-function: ease-in;
   -o-transition-timing-function: ease-in;
