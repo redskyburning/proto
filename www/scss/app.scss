@@ -1,0 +1,98 @@
+@import 'compass/css3';
+@import 'normalize.scss';
+@import 'main.scss';
+@import 'var.scss';
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+}
+
+
+html {
+	font-size:10vmin;
+}
+
+body {
+	font-size:.3rem;
+	line-height:1.3em;
+}
+
+html, body, #app-root {
+	height:100%;
+	width:100%;
+	background:#999;
+
+}
+
+#app-root {
+	@include display-box;
+	@include box-orient(vertical);
+}
+
+#app-head {
+	@include box-flex(0);
+	height:$app-header-min;
+	background:$dnews-black;
+	color:#fff;
+	@include box-sizing(border-box);
+	padding:$app-margin;
+}
+
+#app-drawers {
+}
+
+#app-main {
+	@include box-flex(1);
+	overflow:hidden;
+	background:#fff url('../img/hp-bg.png');
+	position:relative;
+}
+
+#app-stack {
+	position:absolute;
+	height:100%;
+	width:500rem;
+	@include display-box;
+	@include box-orient(horizontal);
+	@include transition-property(left);
+	@include transition-duration(.35s);
+	@include transition-timing-function(ease-in);
+	
+}
+
+.page {
+	width:10rem;
+	height:100%;
+	@include box-sizing(border-box);
+	padding:0 $app-margin * .5;
+	overflow-y:scroll;
+	
+	img {
+		width:100%;
+		height:auto;
+		margin-bottom:$app-margin;
+	}
+}
+	
+.page-inner {
+	padding:$app-margin;
+	text-align:justify;
+	background:#fff;
+}
+
+.bck, .fwd {
+	cursor:pointer;
+}
