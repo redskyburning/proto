@@ -19,16 +19,22 @@
 var app = {
 	
 	currentPage0:0,
-
-    initialize: function() {
-		prepRem();
-        this.bind();
-    },
+	
+	prepRem: function(){
+		var vW = $(window).width();
+		var vH = $(window).height();
+		var vM = (vW < vH) ? vW : vH; 
+		var rem = vM / 10;
+		this.vmin = vM;
+		$('html').css('fontSize',rem+'px');
+	},
+	
     bind: function() {
         document.addEventListener('deviceready', this.deviceready, false);
     },
 	slideStack: function(pageNum) {
-		$('#app-stack').css('left',(pageNum * -10)+'rem');
+		$('#app-stack').css('left',(pageNum * -1 * this.vmin)+'px');
+		//$('#app-stack').animate({'left':(pageNum * -1 * this.vmin)+'px'},.5,'linear');
 	},
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.
@@ -45,15 +51,15 @@ var app = {
         document.querySelector('#' + id + ' .pending').className += ' hide';
         var completeElem = document.querySelector('#' + id + ' .complete');
         completeElem.className = completeElem.className.split('hide').join('');
+    },
+
+    run: function() {
+		app.prepRem();
+        this.bind();
     }
 };
 
 function prepRem() {
-	var vW = $(window).width();
-	var vH = $(window).height();
-	var vM = (vW < vH) ? vW : vH; 
-	var rem = Math.round(vM / 10);
-	$('html').css('fontSize',rem+'px');
 }
 
 $(document).ready(function(){
