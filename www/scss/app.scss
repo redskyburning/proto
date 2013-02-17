@@ -68,7 +68,7 @@ html, body, #app-root {
 	@include display-box;
 	@include box-orient(horizontal);
 	@include transition-property(left);
-	@include transition-duration(2s);
+	@include transition-duration(1s);
 	@include transition-timing-function(ease-in);
 	
 }
