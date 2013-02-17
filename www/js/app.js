@@ -21,6 +21,7 @@ var app = {
 	currentPage0:0,
 
     initialize: function() {
+		prepRem();
         this.bind();
     },
     bind: function() {
@@ -56,7 +57,6 @@ function prepRem() {
 }
 
 $(document).ready(function(){
-		prepRem();
 
 		$('.fwd').click(function(){
 			app.slideStack(++app.currentPage0);
