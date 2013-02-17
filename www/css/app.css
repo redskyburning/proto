@@ -774,13 +774,9 @@ html, body, #app-root {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 .page {
   width: 10rem;
   height: 100%;
@@ -790,21 +786,21 @@ html, body, #app-root {
   padding: 0 0.15rem;
   overflow-y: scroll;
 }
-/* line 83, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .page img {
   width: 100%;
   height: auto;
   margin-bottom: 0.3rem;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .page-inner {
   padding: 0.3rem;
   text-align: justify;
   background: #fff;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .bck, .fwd {
   cursor: pointer;
 }
