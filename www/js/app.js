@@ -47,7 +47,17 @@ var app = {
     }
 };
 
+function prepRem() {
+	var vW = $(window).width();
+	var vH = $(window).height();
+	var vM = (vW < vH) ? vW : vH; 
+	var rem = Math.round(vM / 10);
+	$('html').css('fontSize',rem+'px');
+}
+
 $(document).ready(function(){
+		prepRem();
+
 		$('.fwd').click(function(){
 			app.slideStack(++app.currentPage0);
 		});
