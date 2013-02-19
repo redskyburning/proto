@@ -56,12 +56,12 @@ html, body, #app-root {
 
  
 #app-root {
-	/* @include display-box;
-	@include box-orient(vertical); */
+	@include display-box;
+	@include box-orient(vertical);
 }
 
 #app-head {
-	/* @include box-flex(0); */
+	@include box-flex(0);
 	height:$app-header-min;
 	background:$dnews-black;
 	color:#fff;
@@ -73,10 +73,8 @@ html, body, #app-root {
 }
 
 #app-main {
-	/* @include box-flex(1); */
+	@include box-flex(1);
 	overflow:hidden;
-	width:100%;
-	height:100%;
 	background:#fff url('../img/hp-bg.png');
 	position:relative;
 }
@@ -85,8 +83,9 @@ html, body, #app-root {
 	position:absolute;
 	height:100%;
 	width:500rem;
+	@include display-box;
+	@include box-orient(horizontal);
 	-webkit-transition:left 1s;
-	
 }
 
 .page {
@@ -94,8 +93,6 @@ html, body, #app-root {
 	height:100%;
 	@include box-sizing(border-box);
 	padding:0 $app-margin * .5;
-	overflow-y:scroll;
-	float:left;
 	
 	img {
 		width:100%;
