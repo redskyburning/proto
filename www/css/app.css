@@ -783,10 +783,9 @@ html, body, #app-root {
   -ms-box-orient: horizontal;
   box-orient: horizontal;
   -webkit-transition: left 2s ease-out;
-  -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 92, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .page {
   width: 10rem;
   height: 100%;
@@ -794,24 +793,22 @@ html, body, #app-root {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 0.15rem;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
-/* line 100, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .page img {
   width: 100%;
   height: auto;
   margin-bottom: 0.3rem;
 }
 
-/* line 107, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 .page-inner {
   padding: 0.3rem;
   text-align: justify;
   background: #fff;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 .bck, .fwd {
   cursor: pointer;
 }
