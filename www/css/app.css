@@ -793,7 +793,7 @@ html, body, #app-root {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 0.15rem;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 /* line 98, ../scss/app.scss */
 .page img {

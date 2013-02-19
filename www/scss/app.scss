@@ -93,7 +93,7 @@ html, body, #app-root {
 	height:100%;
 	@include box-sizing(border-box);
 	padding:0 $app-margin * .5;
-	overflow-y:scroll;
+	overflow:scroll;
 	
 	img {
 		width:100%;
