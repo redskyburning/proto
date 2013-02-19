@@ -86,6 +86,7 @@ html, body, #app-root {
 	@include display-box;
 	@include box-orient(horizontal);
 	-webkit-transition:left 2s ease-out;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 .page {
