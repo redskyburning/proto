@@ -778,21 +778,10 @@ html, body, #app-root {
   position: absolute;
   height: 100%;
   width: 500rem;
-  -webkit-transition-property: left;
-  -moz-transition-property: left;
-  -o-transition-property: left;
-  transition-property: left;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
+  -webkit-transition: left 1s;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .page {
   width: 10rem;
   height: 100%;
@@ -803,21 +792,21 @@ html, body, #app-root {
   overflow-y: scroll;
   float: left;
 }
-/* line 100, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .page img {
   width: 100%;
   height: auto;
   margin-bottom: 0.3rem;
 }
 
-/* line 107, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .page-inner {
   padding: 0.3rem;
   text-align: justify;
   background: #fff;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .bck, .fwd {
   cursor: pointer;
 }

@@ -83,9 +83,7 @@ html, body, #app-root {
 	position:absolute;
 	height:100%;
 	width:500rem;
-	@include transition-property(left);
-	@include transition-duration(1s);
-	@include transition-timing-function(ease-in);
+	-webkit-transition:left 1s;
 	
 }
 
