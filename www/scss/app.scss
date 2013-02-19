@@ -34,9 +34,24 @@ html, body, #app-root {
 	height:100%;
 	width:100%;
 	background:#999;
-
+	position:relative;
 }
 
+.test-trans {
+	background:#fff;
+	width:150px;
+	height:150px;
+	position:relative;
+	left:0px;
+	-webkit-transition:left .5s;
+	margin-bottom:30px;
+}
+
+.css-trans.active {
+	left:100px;
+}
+
+/* 
 #app-root {
 	@include display-box;
 	@include box-orient(vertical);
@@ -67,6 +82,9 @@ html, body, #app-root {
 	width:500rem;
 	@include display-box;
 	@include box-orient(horizontal);
+	@include transition-property(left);
+	@include transition-duration(1s);
+	@include transition-timing-function(ease-in);
 	
 }
 
@@ -92,4 +110,4 @@ html, body, #app-root {
 
 .bck, .fwd {
 	cursor:pointer;
-}
+} */

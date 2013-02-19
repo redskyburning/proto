@@ -713,86 +713,82 @@ html, body, #app-root {
   height: 100%;
   width: 100%;
   background: #999;
-}
-
-/* line 40, ../scss/app.scss */
-#app-root {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -ms-box-orient: vertical;
-  box-orient: vertical;
-}
-
-/* line 45, ../scss/app.scss */
-#app-head {
-  -webkit-box-flex: 0;
-  -moz-box-flex: 0;
-  -ms-box-flex: 0;
-  box-flex: 0;
-  height: 1rem;
-  background: #383838;
-  color: #fff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0.3rem;
-}
-
-/* line 57, ../scss/app.scss */
-#app-main {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-box-flex: 1;
-  box-flex: 1;
-  overflow: hidden;
-  background: white url("../img/hp-bg.png");
   position: relative;
 }
 
-/* line 64, ../scss/app.scss */
-#app-stack {
-  position: absolute;
-  height: 100%;
-  width: 500rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -ms-box-orient: horizontal;
-  box-orient: horizontal;
-}
-
-/* line 73, ../scss/app.scss */
-.page {
-  width: 10rem;
-  height: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0 0.15rem;
-  overflow-y: scroll;
-}
-/* line 80, ../scss/app.scss */
-.page img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.3rem;
-}
-
-/* line 87, ../scss/app.scss */
-.page-inner {
-  padding: 0.3rem;
-  text-align: justify;
+/* line 40, ../scss/app.scss */
+.test-trans {
   background: #fff;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 0px;
+  -webkit-transition: left .5s;
+  margin-bottom: 30px;
 }
 
-/* line 93, ../scss/app.scss */
-.bck, .fwd {
-  cursor: pointer;
+/* line 50, ../scss/app.scss */
+.css-trans.active {
+  left: 100px;
 }
+
+/* 
+#app-root {
+	@include display-box;
+	@include box-orient(vertical);
+}
+
+#app-head {
+	@include box-flex(0);
+	height:$app-header-min;
+	background:$dnews-black;
+	color:#fff;
+	@include box-sizing(border-box);
+	padding:$app-margin;
+}
+
+#app-drawers {
+}
+
+#app-main {
+	@include box-flex(1);
+	overflow:hidden;
+	background:#fff url('../img/hp-bg.png');
+	position:relative;
+}
+
+#app-stack {
+	position:absolute;
+	height:100%;
+	width:500rem;
+	@include display-box;
+	@include box-orient(horizontal);
+	@include transition-property(left);
+	@include transition-duration(1s);
+	@include transition-timing-function(ease-in);
+	
+}
+
+.page {
+	width:10rem;
+	height:100%;
+	@include box-sizing(border-box);
+	padding:0 $app-margin * .5;
+	overflow-y:scroll;
+	
+	img {
+		width:100%;
+		height:auto;
+		margin-bottom:$app-margin;
+	}
+}
+	
+.page-inner {
+	padding:$app-margin;
+	text-align:justify;
+	background:#fff;
+}
+
+.bck, .fwd {
+	cursor:pointer;
+} */

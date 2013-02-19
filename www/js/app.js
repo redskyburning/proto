@@ -70,6 +70,27 @@ $(document).ready(function(){
 		$('.bck').click(function(){
 			app.slideStack(--app.currentPage0);
 		});
+		
+		$('.css-trans').click(function(){
+			var thisClass = $(this).hasClass('active');
+			console.log(thisClass);
+			if(thisClass){
+				$(this).removeClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		});
+		
+		$('.js-trans').click(function(){
+			if($(this).hasClass('active')){
+				$(this).removeClass('active');
+				var newLeft = '0px';
+			} else {
+				$(this).addClass('active');
+				var newLeft = '100px';
+			}
+			$(this).animate({'left':newLeft},.5);
+		});
 
 });
 
