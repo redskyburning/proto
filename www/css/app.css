@@ -682,21 +682,17 @@ a {
   color: inherit;
 }
 
-/* line 11, ../scss/app.scss */
-::-webkit-scrollbar {
-  width: 2px;
+/* ::-webkit-scrollbar {
+    width: 2px;
 }
-
-/* line 15, ../scss/app.scss */
+ 
 ::-webkit-scrollbar-track {
-  border-radius: 2px;
+    border-radius: 2px;
 }
-
-/* line 19, ../scss/app.scss */
+ 
 ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-}
-
+    border-radius: 2px;
+} */
 /* line 24, ../scss/app.scss */
 html {
   font-size: 10vmin;
@@ -797,22 +793,23 @@ html, body, #app-root {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 0.15rem;
+  overflow-y: scroll;
 }
-/* line 97, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .page img {
   width: 100%;
   height: auto;
   margin-bottom: 0.3rem;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .page-inner {
   padding: 0.3rem;
   text-align: justify;
   background: #fff;
 }
 
-/* line 110, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .bck, .fwd {
   cursor: pointer;
 }

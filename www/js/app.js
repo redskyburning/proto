@@ -64,6 +64,14 @@ function prepRem() {
 }
 
 $(document).ready(function(){
+		
+		var numPages = 5;
+		for(i=0; i < numPages; i++){
+			$('#app-stack').append($('#test-page').html());
+		}
+		
+		var vpOut = 'Viewport: '+$(window).width() + ' / ' + $(window).height();
+		$('.output-tango').html(vpOut);
 
 		$('.fwd').click(function(){
 			app.slideStack(++app.currentPage0);
@@ -92,6 +100,5 @@ $(document).ready(function(){
 			}
 			$(this).animate({'left':newLeft},.5);
 		});
-
 });
 
