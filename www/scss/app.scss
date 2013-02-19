@@ -39,16 +39,19 @@ html, body, #app-root {
 
 .test-trans {
 	background:#fff;
-	width:150px;
-	height:150px;
 	position:relative;
 	left:0px;
 	-webkit-transition:left .5s;
 	margin-bottom:30px;
+	
+	img {
+		width:100%;
+		height:auto;
+	}
 }
 
 .css-trans.active {
-	left:100px;
+	left:250px;
 }
 
 /* 

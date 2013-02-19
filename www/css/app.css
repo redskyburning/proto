@@ -719,17 +719,20 @@ html, body, #app-root {
 /* line 40, ../scss/app.scss */
 .test-trans {
   background: #fff;
-  width: 150px;
-  height: 150px;
   position: relative;
   left: 0px;
   -webkit-transition: left .5s;
   margin-bottom: 30px;
 }
+/* line 47, ../scss/app.scss */
+.test-trans img {
+  width: 100%;
+  height: auto;
+}
 
-/* line 50, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 .css-trans.active {
-  left: 100px;
+  left: 250px;
 }
 
 /* 

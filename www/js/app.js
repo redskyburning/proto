@@ -87,7 +87,7 @@ $(document).ready(function(){
 				var newLeft = '0px';
 			} else {
 				$(this).addClass('active');
-				var newLeft = '100px';
+				var newLeft = '250px';
 			}
 			$(this).animate({'left':newLeft},.5);
 		});
