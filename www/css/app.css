@@ -735,63 +735,89 @@ html, body, #app-root {
   left: 600px;
 }
 
-/* 
+/* line 58, ../scss/app.scss */
 #app-root {
-	@include display-box;
-	@include box-orient(vertical);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
 }
 
+/* line 63, ../scss/app.scss */
 #app-head {
-	@include box-flex(0);
-	height:$app-header-min;
-	background:$dnews-black;
-	color:#fff;
-	@include box-sizing(border-box);
-	padding:$app-margin;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-box-flex: 0;
+  box-flex: 0;
+  height: 1rem;
+  background: #383838;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.3rem;
 }
 
-#app-drawers {
-}
-
+/* line 75, ../scss/app.scss */
 #app-main {
-	@include box-flex(1);
-	overflow:hidden;
-	background:#fff url('../img/hp-bg.png');
-	position:relative;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  overflow: hidden;
+  background: white url("../img/hp-bg.png");
+  position: relative;
 }
 
+/* line 82, ../scss/app.scss */
 #app-stack {
-	position:absolute;
-	height:100%;
-	width:500rem;
-	@include display-box;
-	@include box-orient(horizontal);
-	@include transition-property(left);
-	@include transition-duration(1s);
-	@include transition-timing-function(ease-in);
-	
+  position: absolute;
+  height: 100%;
+  width: 500rem;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
+/* line 92, ../scss/app.scss */
 .page {
-	width:10rem;
-	height:100%;
-	@include box-sizing(border-box);
-	padding:0 $app-margin * .5;
-	overflow-y:scroll;
-	
-	img {
-		width:100%;
-		height:auto;
-		margin-bottom:$app-margin;
-	}
+  width: 10rem;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.15rem;
+  overflow-y: scroll;
+  float: left;
 }
-	
-.page-inner {
-	padding:$app-margin;
-	text-align:justify;
-	background:#fff;
+/* line 100, ../scss/app.scss */
+.page img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.3rem;
 }
 
+/* line 107, ../scss/app.scss */
+.page-inner {
+  padding: 0.3rem;
+  text-align: justify;
+  background: #fff;
+}
+
+/* line 113, ../scss/app.scss */
 .bck, .fwd {
-	cursor:pointer;
-} */
+  cursor: pointer;
+}

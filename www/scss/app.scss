@@ -54,7 +54,7 @@ html, body, #app-root {
 	left:600px;
 }
 
-/* 
+ 
 #app-root {
 	@include display-box;
 	@include box-orient(vertical);
@@ -83,8 +83,6 @@ html, body, #app-root {
 	position:absolute;
 	height:100%;
 	width:500rem;
-	@include display-box;
-	@include box-orient(horizontal);
 	@include transition-property(left);
 	@include transition-duration(1s);
 	@include transition-timing-function(ease-in);
@@ -97,6 +95,7 @@ html, body, #app-root {
 	@include box-sizing(border-box);
 	padding:0 $app-margin * .5;
 	overflow-y:scroll;
+	float:left;
 	
 	img {
 		width:100%;
@@ -113,4 +112,4 @@ html, body, #app-root {
 
 .bck, .fwd {
 	cursor:pointer;
-} */
+}
