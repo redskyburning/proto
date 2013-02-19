@@ -85,7 +85,7 @@ html, body, #app-root {
 	width:500rem;
 	@include display-box;
 	@include box-orient(horizontal);
-	-webkit-transition:left 1s;
+	-webkit-transition:left 2s ease-out;
 }
 
 .page {
