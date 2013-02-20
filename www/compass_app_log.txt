@@ -110,3 +110,8 @@
 2013-02-20 11:38:16 identical css/app.css 
 2013-02-20 11:42:10 overwrite css/app.css 
 2013-02-20 11:47:09 overwrite css/app.css 
+2013-02-20 11:53:28     error scss/app.scss (Line 23: Invalid CSS after "...r:rgba(0,0,0,0)": expected "{", was ";")
+2013-02-20 11:53:28 overwrite css/app.css 
+2013-02-20 13:54:33 overwrite css/app.css 
+2013-02-20 13:58:07 overwrite css/app.css 
+2013-02-20 13:58:21 overwrite css/app.css 
