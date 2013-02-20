@@ -72,7 +72,7 @@ function prepRem() {
 
 $(document).ready(function(){
 		
-		var numPages = 10; 
+		var numPages = 20; 
 		for(i=0; i < numPages; i++){
 			$('#app-stack').append($('#test-page').html());
 		}
