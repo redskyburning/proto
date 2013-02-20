@@ -71,8 +71,8 @@ function prepRem() {
 }
 
 $(document).ready(function(){
-		
-		var numPages = 20; 
+		 
+		var numPages = 5; 
 		for(i=0; i < numPages; i++){
 			$('#app-stack').append($('#test-page').html());
 		}
