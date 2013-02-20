@@ -781,7 +781,7 @@ html, body, #app-root {
   -moz-box-orient: horizontal;
   -ms-box-orient: horizontal;
   box-orient: horizontal;
-  -webkit-transition: -webkit-transform .5s ease-out;
+  -webkit-transition: -webkit-transform .25s ease-out;
 }
 
 /* line 90, ../scss/app.scss */
