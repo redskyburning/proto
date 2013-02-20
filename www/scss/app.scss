@@ -41,7 +41,6 @@ html, body, #app-root {
 	background:#fff;
 	position:relative;
 	left:0px;
-	-webkit-transition:left .5s;
 	margin-bottom:30px;
 	
 	img {
@@ -85,7 +84,7 @@ html, body, #app-root {
 	width:500rem;
 	@include display-box;
 	@include box-orient(horizontal);
-	-webkit-transition:left .5s ease-out;
+	-webkit-transition:-webkit-transform 1s ease-out;
 }
 
 .page {
@@ -93,6 +92,7 @@ html, body, #app-root {
 	height:100%;
 	@include box-sizing(border-box);
 	padding:0 $app-margin * .5;
+	overflow-y:scroll;
 	
 	img {
 		width:100%;

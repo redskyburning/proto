@@ -717,21 +717,20 @@ html, body, #app-root {
   background: #fff;
   position: relative;
   left: 0px;
-  -webkit-transition: left .5s;
   margin-bottom: 30px;
 }
-/* line 47, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .test-trans img {
   width: 100%;
   height: auto;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .css-trans.active {
   left: 600px;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 57, ../scss/app.scss */
 #app-root {
   display: -webkit-box;
   display: -moz-box;
@@ -743,7 +742,7 @@ html, body, #app-root {
   box-orient: vertical;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 #app-head {
   -webkit-box-flex: 0;
   -moz-box-flex: 0;
@@ -758,7 +757,7 @@ html, body, #app-root {
   padding: 0.3rem;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 #app-main {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -769,7 +768,7 @@ html, body, #app-root {
   position: relative;
 }
 
-/* line 82, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 #app-stack {
   position: absolute;
   height: 100%;
@@ -782,10 +781,10 @@ html, body, #app-root {
   -moz-box-orient: horizontal;
   -ms-box-orient: horizontal;
   box-orient: horizontal;
-  -webkit-transition: left .5s ease-out;
+  -webkit-transition: -webkit-transform 1s ease-out;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .page {
   width: 10rem;
   height: 100%;
@@ -793,6 +792,7 @@ html, body, #app-root {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 0.15rem;
+  overflow-y: scroll;
 }
 /* line 97, ../scss/app.scss */
 .page img {

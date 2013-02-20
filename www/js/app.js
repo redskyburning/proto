@@ -34,8 +34,10 @@ var app = {
     },
 	slideStack: function(pageNum) {
 		var newLeft = (pageNum * -1 * this.vmin)+'px';
-		$('#app-stack').css('left',(pageNum * -1 * this.vmin)+'px');
+		//$('#app-stack').css('left',(pageNum * -1 * this.vmin)+'px');
 		//$('#app-stack').animate({'left':newLeft},2,'linear');
+		$('#app-stack').css('-webkit-transform','translateX('+newLeft+')');
+		console.log('translateX('+newLeft+'px)');
 	},
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.
@@ -60,6 +62,11 @@ var app = {
     }
 };
 
+var myScroll;
+function loaded() {
+	myScroll = new iScroll('current-page');
+}
+
 function prepRem() {
 }
 
@@ -72,6 +79,9 @@ $(document).ready(function(){
 		
 		var vpOut = 'Viewport: '+$(window).width() + ' / ' + $(window).height();
 		$('.output-tango').html(vpOut);
+		
+		$('.page:first-child').attr('id','current-page');
+		//loaded();
 
 		$('.fwd').click(function(){
 			app.slideStack(++app.currentPage0);
