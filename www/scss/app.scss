@@ -84,14 +84,14 @@ html, body, #app-root {
 	width:500rem;
 	@include display-box;
 	@include box-orient(horizontal);
-	-webkit-transition:-webkit-transform .25s ease-out;
+	-webkit-transition:-webkit-transform .5s ease-out;
 }
 
 .page {
 	width:10rem;
 	height:100%;
 	@include box-sizing(border-box);
-	padding:0 $app-margin * .5;
+	padding:0 $app-margin * .25;
 	overflow-y:scroll;  
 	
 	img {
