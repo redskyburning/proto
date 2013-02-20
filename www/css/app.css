@@ -800,7 +800,7 @@ html, body, #app-root {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 0.075rem;
+  /* padding:0 $app-margin * .25; */
   overflow-y: scroll;
 }
 /* line 101, ../scss/app.scss */
